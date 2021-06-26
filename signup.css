@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+}
+h1{
+    font-family: 'Black Ops One','sans-serif';
+    font-weight: 400;
+}
+p,small,a,label{
+    font-family: 'Poppins','sans-serif';
+    font-size: 13px;
+    font-weight: 500;
+}
+/* wrapper */
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 0;
+    width: 100%
+}
+/* sec-1 */
+.sec-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff;
+    padding: 20px 0;
+    width: 90%;
+}
+.logo{
+    font-size: 45px;
+    letter-spacing: 8px;
+}
+/* sec-2 */
+.sec-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #EFF2F9;
+    border-radius: 6px;
+    box-shadow:  9px 9px 33px #c7c7c7,-9px -9px 33px #ffffff;
+    padding: 20px 30px;
+    margin: 15px 0;
+    width: 90%;
+}
+span{
+    font-size: 13px;
+    padding: 20px 0;
+}
+a{
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.sec-2 h1{
+    padding: 10px 0;
+    letter-spacing: 2px;
+}
+/* form */
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.input{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+input{
+    border: none;
+    background: #FBFBFB;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px ;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.error-icon{
+    position: absolute;
+    top:60%;
+    left: 90%;
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+.error-msg{
+    font-family: 'Poppins',sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: #FF0000;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    display: none;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px 0;    
+}
+
+.checkbox{
+    width: 90px;
+}
+.terms p{
+    font-size: 10px;
+   
+}
+button{
+    border: none;
+    background: #4385F2;
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(135deg, #2962FF, #7ABAF2);
+}
+
+/* desktop view */
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
