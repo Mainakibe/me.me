@@ -20,7 +20,6 @@
 h1,header{
     font-family: 'Black Ops One','sans-serif';
     font-weight: 400;
-    background-color: rgb(39, 39, 39);
 }
 p,small,a,label{
     font-family: 'Poppins','sans-serif';
@@ -54,8 +53,8 @@ header{
     font-size: 45px;
     letter-spacing: 8px;
 }
-/* sign up form */
-.signup{
+/* login form*/
+.login{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -75,7 +74,7 @@ a{
     margin-left: 5px;
     text-decoration: none;
 }
-.signup h1{
+.login h1{
     letter-spacing: 2px;
     padding: 10px 0;  
 }
@@ -121,19 +120,8 @@ input{
     top: 80%;
     display: none;
 }
-.terms{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 30px 0;    
-}
-
-.checkbox{
-    width: 90px;
-}
-.terms p{
-    font-size: 10px;
+.forgot{
+    margin: 20px 0;
 }
 button{ 
     background: var(--button);
@@ -165,9 +153,10 @@ button:hover{
         box-shadow:  9px 9px 33px #c7c7c7,-9px -9px 33px #fff;
         height: 86.2vh;
     }
-    .signup{
+    .login{
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         height: 86.2vh;
+        padding:  90px 30px;
     }
 }
