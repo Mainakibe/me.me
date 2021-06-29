@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+    <link rel="stylesheet" href="css/login.css">
+    <title> | Login</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="main-image">
+            <header>ME.ME</header>
+            <img src="images/monitor.svg" alt="monitor image">
+        </section>
+        <section class="login">
+            <small>Don't have an account?<a href="signup.html" class="signup">Signup</a></small>
+            <h1 class="create-account">LOGIN</h1>
+            <form>
+                <div class="input">
+                    <label for="username">Username</label>
+                    <input type="text" id="username">
+                    <span class="error-msg"></span>
+                    <img src="images/icon-error.svg" alt="" class="error-icon">
+                </div>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <span class="error-msg"></span>
+                    <img src="images/icon-error.svg" alt="" class="error-icon">
+                </div>
+                <a href="forgot.html" class="forgot">Forgot Password?</a>
+                <button>LOGIN</button>
+            </form>
+        </section>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
