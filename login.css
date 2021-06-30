@@ -120,6 +120,7 @@ input{
     top: 80%;
     display: none;
 }
+
 .forgot{
     margin: 20px 0;
 }
@@ -159,4 +160,5 @@ button:hover{
         height: 86.2vh;
         padding:  90px 30px;
     }
+  
 }
