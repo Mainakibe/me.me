@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color:#B3BADE;
+    --color: #E8EAF0;
+    --color:#070613;
+    --color:#A0A2AF;
+    --color:#312E57;
+    --color:#4955AB;
+    --color:#CAB1DC;
+}
+body{
+    font-family: 'Poppins','sans-serif';
+    
+}
+/* fonts */
+header{
+    font-size: 40px;
+    font-weight: 800;
+}
+p,small,h2,h1,span{
+    font-size: 13px;
+    font-weight: 500;
+}
+/* mobile view */
+/* wrapper */
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+    padding: 10px 0;
+    width: 90%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 100%;
+}
+.not{
+    width: 15px;
+    height: 15px;
+    background: blue;
+    border-radius: 50%;
+}
+
+
+
+.notifications{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0;
+}
+.new-notifications{
+  width: 100%;
+}
+.new-notification{
+    background: red;
+    border-radius:20px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 100%;
+}
+.earlier-notifications
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+.earlier-notification{
+    background: red;
+    border-radius:20px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 100%;
+}
+.earlier-notification:nth-child(2){
+    width: 90%;
+    position: absolute;
+    top: 2.2rem;
+    z-index: 1;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.earlier-notification:nth-child(3){
+    width: 80%;
+    position: absolute;
+    top: 2.7rem;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.earlier-notification:nth-child(4){
+    z-index: 1;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    width: 100%;
+}
+
+
+
+
+.earlier
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 230px;
+    width: 25%;
+}
+.this-week-notifications{
+    width: 100%;
+}
+.this-week
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    margin: 25px 0;
+}
+.this-week-notification{
+    background: red;
+    border-radius:20px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 100%;
+}
+.user-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.profile-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.name-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    
+}
+h1{
+    font-size: 12px;
+    font-weight: bold;
+}
+h2{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.name{
+    font-weight: bold;
+    padding-right: 5px;
+} 
+.text{
+    font-size: 11px;
+}
+.time-num{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    position: absolute;
+    left: 18.5rem;
+}
+.time{
+    font-size: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -1.55rem;
+    right: 1rem;
+    width: 100%;
+}
+.number{
+    background: blue;
+    border-radius: 50%;
+    padding:2px 9px;
+    position: absolute;
+}
+.img-upload{
+    border-radius: 10px;
+    height: 230px;
+    width: 100%;
+}
+.posts-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 100%;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    fill: red;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: yellow;
+    border-radius: 10px;
+    padding: 18px 10px;
+    width: 100%;
+}
